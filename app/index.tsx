@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
       <Text className='text-black text-2xl font-pbold'>Index</Text>
-      <Link href="/profile" style={{color: 'red'}}>Go to Profile</Link>
+      <Link href="home" style={{color: 'red'}}>Go to Home</Link>
     </View>
   )
 }
